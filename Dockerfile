@@ -1,4 +1,4 @@
-FROM vimc/node-docker
+FROM vimc/node-docker:master
 
 RUN echo 'deb http://deb.debian.org/debian stretch-backports main' > /etc/apt/sources.list.d/stretch-backports.list
 RUN apt-get update
