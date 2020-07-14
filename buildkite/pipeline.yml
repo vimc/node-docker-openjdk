@@ -1,0 +1,2 @@
+steps:
+  - command: "build-image.sh"
