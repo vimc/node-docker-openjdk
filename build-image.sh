@@ -19,6 +19,8 @@ fi
 APP_DOCKER_COMMIT_TAG=${ORG}/${NAME}:${GIT_ID}
 APP_DOCKER_BRANCH_TAG=${ORG}/${NAME}:${GIT_BRANCH}
 
+docker pull vimc/node-docker:master
+
 docker build \
     --pull \
     --tag ${APP_DOCKER_BRANCH_TAG} \
