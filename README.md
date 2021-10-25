@@ -1,5 +1,5 @@
 # node-docker-openjdk
-Contains a docker file for an image based on `node-10` with `openjdk-8` and `docker` installed, and script to build,
+Contains a docker file for an image based on `node-12` with `openjdk-8` and `docker` installed, and script to build,
  tag and push the image to the vimc registry.
 
 ## building
